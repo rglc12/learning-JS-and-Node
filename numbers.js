@@ -28,6 +28,8 @@ console.log(num++); //++ after var will increase the value but won't show until 
 console.log(num);
 */
 
+// Challenge
+
 var test1 = 67;
 var test2 = 24;
 var test3 = 98;
