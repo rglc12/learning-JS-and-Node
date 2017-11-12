@@ -27,7 +27,7 @@ function getAccount(username){
 
 // Deposit money into Account
 
-function depositbalance(username, amount) {
+function depositBalance(username, amount) {
     accounts.forEach(function (account) {
         if(account.username === username){
             account.balance += amount;
@@ -64,10 +64,10 @@ getAccount('RickSanchez');
 createAccount('RLC');
 createAccount('SC');
 createAccount('RL');
-depositbalance('RLC', 2000);
-depositbalance('RL', 200);
-depositbalance('RickSanchez', 3000);
-depositbalance('SC', 1523);
+depositBalance('RLC', 2000);
+depositBalance('RL', 200);
+depositBalance('RickSanchez', 3000);
+depositBalance('SC', 1523);
 withdrawbalance('RLC', 877);
 
 /**
